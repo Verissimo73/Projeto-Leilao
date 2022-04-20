@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient( 99deg,  #731251 10.6%, rgba(28,28,28,1) 118% );
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 28%;
+    margin-right: 28%;
+    min-width: 40%;
+    box-shadow: 10px 5px 5px black;
+    background-color: rgba(255, 255, 255, 0.692);
+    align-items: center;
+    
+}
+
+.titulo{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    margin-top: 20px;
+}
+
+.subtitulo{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+
+.acoes{
+    background-color: #731251;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500; 
+    float: right;
+    width: 50%;
+    height: 200px;
+    margin-top: 3%;
+    font-size: 13px;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    font-family: 'Mukta', sans-serif;
+    float: right;
+    width:150px;
+    height:50px;
+    color:#fff;
+    border-color:rgba(80, 44, 64, 1);
+    font-weight:500;
+    background:rgba(158, 107, 141, 1);
+    border-width:1px;
+    font-size: 15px;
+    font-weight: 500; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.botao-abaixo{
+    margin-top: 25px;
+}
+
+.botao:hover{
+    background: rgba(61, 33, 66, 1)
+  }
+
